@@ -1,38 +1,78 @@
+
+
 .App {
+  width: 100vw;
+  height: 100vh;
+  background-color: #373737;
+  margin: 0;
+  font-family: 'Nunito';
+}
+
+.header {
+  width: 100vw;
+  height: 100px;
+  background-color: rgb(42, 171, 226);
+
+}
+
+#home {
+  color: black;
+  padding: 35px;
+}
+
+.user-Display {
+  width: 100vh;
+  height: 50vh;
+  background-color: white;
+  text-align: center;
+  
+}
+
+.counter {
+  margin-left: 1260px;
+  display: inline;
+}
+
+#name {
+  text-decoration: underline;
+  text-decoration-color: rgb(42, 171, 226);
+  margin-left: 120px;
+}
+
+.userData {
+  margin-left: 120px;
+}
+
+.button-nav {
+  height: 100px;
+  background-color: #373737;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.change-card-prev {
+  background-color: #373737;
+  font-size: 22px;
+  border: none;
+  font-family: 'Nunito-bold';
+  margin-right: 300px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.change-card-next {
+background-color: #373737;
+  font-size: 22px;
+  border: none;
+  font-family: 'Nunito-bold';
+  margin-left: 300px;
+  
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.blue-buttons {
+  background-color: rgb(42, 171, 226);
+  border-radius: 30%;
+  font-size: 18px;
+  font-family: 'Nunito-bold';
+  padding: 10px;
+  margin: 10px 30px 10px 30px;
+  width: 80px;
+  border: none;
 }
